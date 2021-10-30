@@ -1,0 +1,24 @@
+body{
+    background-color: black;
+    color: white;
+
+}
+
+
+h1{
+    font-size: 35px;
+    text-align: center;
+}
+#move{
+    padding-left: 40%;
+}
+
+img {
+    
+    float: left;
+    border-right: auto;
+    width: 600px;
+    height:600px;
+    border-radius: 50px;
+    margin-right: 50px;
+  }

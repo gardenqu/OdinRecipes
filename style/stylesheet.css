@@ -1,0 +1,25 @@
+body{
+    background: black;
+}
+
+section{
+    text-align: center;
+    color: white;
+    font-size: x-large;
+}
+
+.imgs{
+    width: 200px;
+    height: 200px;
+    border-radius: 20%;
+}
+
+.column {
+    float: left;
+    padding: 5px;
+    
+}
+.row{
+    margin-left: 33%;
+
+}

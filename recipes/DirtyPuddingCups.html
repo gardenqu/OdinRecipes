@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Dirty Pudding Cups</title>
+    <link rel="stylesheet" href="../style/stylesheet2.css">
+</head>
+<body>
+    <h1>Dirty Pudding Cups </h1>
+    <img src="../img/dirtypud.jpg" />
+    <p>Who would've thought that creepy crawler would be a delectable snack</p>
+    <Section>
+        <h2>About this dish</h2>
+        <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
+    </Section>
+    <sections id="ing"> 
+        <h2>Ingredients</h2>
+        <ul>
+            
+        </ul>
+    
+    </sections>
+    <section>
+        <h2>Instructions</h2>
+        <ol>
+            <li> Pour the milk into a mixing bowl and add the pudding mix</li>
+            <li>Beat with a wire whisk until well blended (about 2 minutes)</li>
+            <li>Let pudding stand for five minutes</li>
+            <li>Stir whipped topping into the pudding very gently until it is all the same color</li>
+            <li>Place and 1 Tablespoon of the crushed cookies into the potton of each cup </li>
+            <li>Then add 2 Tablespoons of pudding to each cups</li>
+            <li>Then repeat another layer of cookies, then pudding, and then cookies.</li>
+            <li>Finish up by addingg 2 gummy worms cut in half to the top of each of the cups</li>
+            <li>Put cups in the refrigerator for about one hour to chill them </li>
+            <li>Place worms inside and ontop of the pudding</li>
+
+        </ol>
+    </section>
+   <script>
+       //JavaScript
+       
+       const ingredients=["2 cups cold mik","1 package (4 oz) chocalate instant pudding","1-8 oz container whipped topping, thawed","1 packaged (16 oz) Oreos (crushed into crumbs)","Gummy Worms","10 plastic cups (8 oz.size)"]
+       const ingredList=document.querySelector("#ing").querySelector('ul');
+       for(let items of ingredients){
+           const createList= document.createElement("li");
+           createList.innerText=items;
+           ingredList.appendChild(createList);
+       } 
+    </script>
+    <a href="../index.html">Return to Home</a>
+    
+</body>
+</html>

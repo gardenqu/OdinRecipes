@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Halloween Jello Cups</title>
+    <link rel="stylesheet" href="../style/stylesheet2.css">
+</head>
+<body>
+    <h1>Halloween Jello Cups</h1>
+    <img src="../img/hjello.jpg" />
+    <p>This wicked awesome dessert is sure to be love at first bite when it's jell-owy goodness keeps everyone in high spirits. 
+    <Section>
+        <h2>About this dish</h2>
+        <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
+    </Section>
+    </p>
+    <section id="ing">
+        <h2>Ingredients</h2>
+        <ul>
+            
+        </ul>
+    </section>
+        <section>
+            <h2>Instructions</h2>
+            <ol>
+                <li>Make the Jell-O as directed on the box. Pour Jell-O into cups of your choice and refrigerate for half hour</li>
+                <li>Add gummy worms hanging over the sides. PLace back in fridge</li>
+                <li>Refrigerate for another half hour and add gummy worms into the middle if desired. Continue to refrigerate until set</li>
+                <li>Add Whipped Cream and sprinkles before serving</li>
+            </ol>
+        </section>
+        <script>
+            //for loop
+            const ingredients=["6 oz Lime Jello-o Mix","2 cups of boiling water","2 cups of cold water","gummy worms","Sprinkles"];
+            const ingredList=document.querySelector("#ing").querySelector("ul");
+            for(let items of ingredients){
+                const createList= document.createElement("li");
+                createList.innerText=items;
+
+                ingredList.appendChild(createList);
+            }
+
+
+        </script>
+    
+    <a href="../index.html">Home</a>
+</body>
+</html>
